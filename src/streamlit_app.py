@@ -15,7 +15,7 @@ def make_predictions(test_df, model):
 
 def generate_predictions(test_df):
 
-    model_pickle_path = "src/model.pkl"
+    model_pickle_path = "model.pkl"
     model= load_pickle(model_pickle_path)
     prediction = make_predictions(test_df, model)
     return prediction
