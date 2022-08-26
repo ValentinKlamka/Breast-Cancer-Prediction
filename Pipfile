@@ -6,9 +6,9 @@ name = "pypi"
 [packages]
 pandas = "*"
 sklearn = "*"
-xgboost = "*"
 seaborn = "*"
 streamlit = "*"
+xgboost = "*"
 
 [dev-packages]
 

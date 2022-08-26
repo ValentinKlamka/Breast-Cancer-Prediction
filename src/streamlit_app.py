@@ -55,4 +55,5 @@ if __name__ == "__main__":
         else:
             st.success("Benign")
 
-    st.info("The breast cancer dataset which this app is based on was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg.")
+    st.write("The breast cancer dataset which this app is based on was obtained from the University of Wisconsin Hospitals, Madison from Dr. William H. Wolberg.")
+    
