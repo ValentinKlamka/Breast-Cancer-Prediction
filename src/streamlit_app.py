@@ -1,6 +1,8 @@
 import pickle
 import streamlit as st
+
 import pandas as pd
+import xgboost
 
 def load_pickle(model_path):
     model_opener = open(model_path, "rb")
