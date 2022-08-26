@@ -1,6 +1,5 @@
 import pickle
 import streamlit as st
-import streamlit.components.v1 as components
 import pandas as pd
 
 def load_pickle(model_path):
@@ -15,7 +14,7 @@ def make_predictions(test_df, model):
 
 def generate_predictions(test_df):
 
-    model_pickle_path = "model.pkl"
+    model_pickle_path = "src/model.pkl"
     model= load_pickle(model_pickle_path)
     prediction = make_predictions(test_df, model)
     return prediction
